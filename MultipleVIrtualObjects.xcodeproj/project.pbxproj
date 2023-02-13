@@ -13,6 +13,8 @@
 		AF1749B32999E67400025C4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1749B12999E67400025C4F /* Main.storyboard */; };
 		AF1749B52999E67500025C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1749B42999E67500025C4F /* Assets.xcassets */; };
 		AF1749B82999E67500025C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1749B62999E67500025C4F /* LaunchScreen.storyboard */; };
+		AF1749BF2999E92700025C4F /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1749BE2999E92700025C4F /* wood.png */; };
+		AF1749C12999E93000025C4F /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1749C02999E93000025C4F /* earth.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		AF1749B22999E67400025C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF1749B42999E67500025C4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF1749B72999E67500025C4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF1749BE2999E92700025C4F /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		AF1749C02999E93000025C4F /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		AF1749AA2999E67300025C4F /* MultipleVIrtualObjects */ = {
 			isa = PBXGroup;
 			children = (
+				AF1749BE2999E92700025C4F /* wood.png */,
+				AF1749C02999E93000025C4F /* earth.png */,
 				AF1749AB2999E67300025C4F /* AppDelegate.swift */,
 				AF1749AD2999E67300025C4F /* art.scnassets */,
 				AF1749AF2999E67300025C4F /* ViewController.swift */,
@@ -124,6 +130,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1749AE2999E67300025C4F /* art.scnassets in Resources */,
+				AF1749BF2999E92700025C4F /* wood.png in Resources */,
+				AF1749C12999E93000025C4F /* earth.png in Resources */,
 				AF1749B82999E67500025C4F /* LaunchScreen.storyboard in Resources */,
 				AF1749B52999E67500025C4F /* Assets.xcassets in Resources */,
 				AF1749B32999E67400025C4F /* Main.storyboard in Resources */,
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +334,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
